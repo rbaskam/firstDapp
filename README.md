@@ -4,13 +4,14 @@ Basic Voting Dapp for the Ethereal Network
 #Instructions
 https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2
 Create Directory for App
-npm init
-npm install ethereumjs-testrpc web3@0.20.1
-node_modules/.bin/testrpc
+* npm init
+* npm install ethereumjs-testrpc web3@0.20.1
+* node_modules/.bin/testrpc
 OPEN NEW TERMINAL TAB for future work
 Create .sol page (Voting.sol)
-npm install solc
-Type -> node
+
+* npm install solc
+* Type -> node
 * Web3 = require('web3')
 * web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
 * web3.eth.accounts
